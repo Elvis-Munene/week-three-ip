@@ -33,3 +33,7 @@ input{
   width: 30px;
   margin-left: 18px;
 }
+button{
+  width: 90px;
+  border-radius: 10px;
+}
