@@ -14,4 +14,13 @@ body{
 
 #header{
   border-bottom: 2px solid gold;
+  padding: 7px;
+  height: 400px;
+  background-image: url(../images/depositphotos_29760945-stock-photo-quiz-red-3d-word-test.webp);
+  margin-top: 0;
+  color: black;
+}
+img{
+  width: fit-content;
+  height: fit-content;
 }
