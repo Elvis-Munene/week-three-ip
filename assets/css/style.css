@@ -26,3 +26,10 @@ img{
   width: fit-content;
   height: fit-content;
 }
+label{
+  display: block;
+}
+input{
+  width: 30px;
+  margin-left: 18px;
+}
