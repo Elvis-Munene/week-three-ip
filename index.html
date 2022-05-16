@@ -19,50 +19,52 @@
 
 <h2>An external JavaScript must contain the 'script' tag?</h2>
 
-<label for="var_nairobi"><input type="radio" name="variable-1" value="1" id='var_nairobi'/>"True"</label>
+<label for="var_nairobi"><input type="radio" name="variable" value="25" id='var_nairobi'/>"True"</label>
 
-<label for="var_nakuru"><input type="radio" name="variable-1" value="0" id='var_nakuru'/> False</label>
+<label for="var_nakuru"><input type="radio" name="variable" value="0" id='var_nakuru'/> False</label>
 
-<label for="var_kisumu"><input type="radio" name="variable-1" value="0" id='var_kisumu'/>It depends</label>
+<label for="var_kisumu"><input type="radio" name="variable" value="0" id='var_kisumu'/>It depends</label>
 
-<label for="var_mombasa"><input type="radio" name="variable-1" value="0" id='var_mombasa'/>Partially.</label>
+<label for="var_mombasa"><input type="radio" name="variable" value="0" id='var_mombasa'/>Partially.</label>
 
 
 <h2>How do you write 'Hello World' in an alert box?</h2>
 
-<label for="var_nine"><input type="radio" name="variable-2" value="0" id='var_nine'/>alert('Hello World')</label>
+<label for="var_nine"><input type="radio" name="sub" value="0" id='var_nine'/>alert('Hello World')</label>
 
-<label for="var_seven"><input type="radio" name="variable-2" value="1" id='var_seven'/>msgBox('Hello World')</label>
+<label for="var_seven"><input type="radio" name="sub" value="25" id='var_seven'/>msgBox('Hello World')</label>
 
-<label for="var_fourty"><input type="radio" name="variable-2" value="0" id='var_fourty'/>alertBox='Hello WOrld'</label>
+<label for="var_fourty"><input type="radio" name="sub" value="0" id='var_fourty'/>alertBox='Hello WOrld'</label>
 
-<label for="var_four"><input type="radio" name="variable-2" value="0" id='var_four'/>alertBox('Hello World')</label>
+<label for="var_four"><input type="radio" name="sub" value="0" id='var_four'/>alertBox('Hello World')</label>
 
 
 <h2>How do you create a function?</h2>
 
-<label for="var_twentyfive"><input type="radio" name="variable-3" value="0" id='var_twentyfive'/>function:myFunction()</label>
+<label for="var_twentyfive"><input type="radio" name="con" value="0" id='var_twentyfive'/>function:myFunction()</label>
 
-<label for="var_sixteen"><input type="radio" name="variable-3" value="0" id='var_sixteen'/>function=myFunction()</label>
+<label for="var_sixteen"><input type="radio" name="con" value="0" id='var_sixteen'/>function=myFunction()</label>
 
-<label for="var_seventeen"><input type="radio" name="variable-3" value="0" id='var_seventeen'/>function myFunction()</label>
+<label for="var_seventeen"><input type="radio" name="con" value="0" id='var_seventeen'/>function myFunction()</label>
 
-<label for="var_eighteen"><input type="radio" name="variable-3" value="1" id='var_eighteen'/>myFunction():function</label>
+<label for="var_eighteen"><input type="radio" name="con" value="25" id='var_eighteen'/>myFunction():function</label>
 
-
+<!-- 
 <h2>How does a 'for' loop start?</h2>
 
-<label for="var_5"><input type="radio" name="variable-4" value="0" id='var_5'/>for (i=0;i<=5;i++)</label>
+<label for="var_5"><input type="radio" name="ifstate" value="0" id='var_5'/>for (i=0;i<=5;i++)</label>
 
-<label for="var_2"><input type="radio" name="variable-4" value="0" id='var_2'/> for (i=0;i<=5;</label>
+<label for="var_2"><input type="radio" name="ifstate" value="0" id='var_2'/> for (i=0;i<=5;</label>
 
-<label for="var_10"><input type="radio" name="variable-4" value="0" id='var_10'/>for i=1 to 5</label>
+<label for="var_10"><input type="radio" name="ifstate" value="0" id='var_10'/>for i=1 to 5</label>
 
-<label for="var_7"><input type="radio" name="variable-4" value="1" id='var_7'/>for (i<=5;i++)</label>
+<label for="var_7"><input type="radio" name="ifstate" value="25" id='var_7'/>for (i<=5;i++)</label> -->
 
 
 
-<h2>How do you round the number 7.25, to the nearest whole number?</h2>
+
+
+<!-- <h2>How do you round the number 7.25, to the nearest whole number?</h2>
 
 <label for="var_55"><input type="radio" name="variable-5" value="1" id='var_55'/>Math.rnd(7.25)</label>
 
@@ -70,7 +72,15 @@
 
 <label for="var_1010"><input type="radio" name="variable-5" value="0" id='var_1010'/>rnd(7.25)</label>
 
-<label for="var_77"><input type="radio" name="variable-5" value="0" id='var_77'/>Math.round(7.25)</label>
+<label for="var_77"><input type="radio" name="variable-5" value="0" id='var_77'/>Math.round(7.25)</label> -->
+
+
+<h2>Which is the best description of an if statement?</h2>
+    <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Identifies a portion of a string.</label>
+    <label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />A method to join strings.</label>
+    <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Allows you to store information so it can be reused throughout the program</label>
+    <label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Allows you to make a decision based on a condition.</label>
+    
 
 <button type="submit" value="Submit">Submit</button>
 </form>
@@ -83,10 +93,31 @@
 
 
 
+<!-- <script>
+document.getElementById("form-1").onsubmit=function() {
+       variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+	   sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
+	   con = parseInt(document.querySelector('input[name = "con"]:checked').value);
+	   ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
 
-</script>
+
+	   result = variable + sub + con + ifstate;
+
+	document.getElementById("grade").innerHTML = result;
+
+  if (result == 0) {result2 = "I don't think you studied."};
+if (result == 25) {result2 = "You need to spend more time. Try again."};
+if (result == 50) {result2 = "I think you could do better. Try again."};
+if (result == 75) {result2 = "So close. Try again."};
+if (result == 100) {result2 = "Excellent! You're a JavaScript pro!"};
+document.getElementById("grade2").innerHTML = result2;
 
 
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
 
+</script> -->
+
+<script src="./assets/javascript/script.js"></script>
 </body>
 </html>
