@@ -1,8 +1,6 @@
 # week-three-ip
 # Javascript Quizes
-# By Elvis Munene
-
-Link:
+# By Elvis Munene![java-app](https://user-images.githubusercontent.com/104641808/169172889-700b7467-2b62-4347-b4de-d4fee6820e49.png)
 ## Table of Content
 * Description.
 * Features
