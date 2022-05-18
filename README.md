@@ -26,7 +26,7 @@ Requirements.
 2. Internet conectivity.
 Installation Process
 ***
-*git clone:
+*git clone:https://github.com/Elvis-Munene/week-three-ip.git
 *unzip the file.
 *use a broser to open the file.
 
